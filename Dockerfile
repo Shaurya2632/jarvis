@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY . .
 
+RUN pip install uv
+
 RUN uv sync
 
 CMD ["uv", "run", "main.py"]
