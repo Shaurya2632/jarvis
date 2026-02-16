@@ -2,9 +2,8 @@ import datetime
 import webbrowser
 import pyjokes
 
-from utils import is_contains, is_contains_any, replacer, safe_eval
-from model import Model
-
+from src.utils import is_contains, is_contains_any, safe_eval
+from src.model import Model
 
 class Agent:
     def __init__(self):

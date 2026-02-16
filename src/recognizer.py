@@ -1,6 +1,6 @@
 import speech_recognition as sr
-from speak import speak
-from agent import Agent
+from src.speak import speak
+from src.agent import Agent
 
 def run():
     recognizer = sr.Recognizer()

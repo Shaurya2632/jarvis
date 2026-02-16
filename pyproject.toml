@@ -7,6 +7,7 @@ requires-python = ">=3.13"
 dependencies = [
     "cohere>=5.20.5",
     "dotenv>=0.9.9",
+    "pyaudio>=0.2.14",
     "pyjokes>=0.8.3",
     "pywin32>=311",
     "speechrecognition>=3.14.5",
