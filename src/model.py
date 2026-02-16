@@ -28,7 +28,7 @@ Never answer. Only classify.
 
     def classify(self, prompt):
         stream = self.co.chat_stream(
-            model="command-r",
+            model="command-a-03-2025",
             message=prompt,
             temperature=0.3,
             preamble=self.preamble
