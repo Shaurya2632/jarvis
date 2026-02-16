@@ -6,10 +6,10 @@ def is_contains(text, *words):
 def is_contains_any(text, *words):
     return any(word in text for word in words)
 
-def replacer(text, *pairs):
-    for old, new in pairs:
-        text = text.replace(old, new)
-    return text
+# def replacer(text, *pairs):
+#     for old, new in pairs:
+#         text = text.replace(old, new)
+#     return text
 
 def safe_eval(expression):
     if not re.match(r"^[\d+\-*/().\s]+$", expression):
